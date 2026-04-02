@@ -182,7 +182,7 @@ form {
 /**/
 .english {
 
-  display: none;
+  /* display: none; Removido para arquitectura multi-idioma */
 }
 
 .languages {
@@ -192,12 +192,12 @@ form {
   height: auto;
   top: 2%;
   right: 2%;
-  display: none;
+  /* display: none; Removido para arquitectura multi-idioma */
 }
 
 #langEnglish {
 
-  display: none;
+  /* display: none; Removido para arquitectura multi-idioma */
 }
 
 
@@ -474,7 +474,7 @@ nav {
 
 #english {
 
-  display: none;
+  /* display: none; Removido para arquitectura multi-idioma */
 }
 
 
