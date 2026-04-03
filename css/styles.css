@@ -202,9 +202,8 @@ form {
 
 
 
-.spa { 
-  color: blue;
-}
+/* .spa removido porque JS ahora asigna el color basándose en el idioma activo */
+
 
 
 
