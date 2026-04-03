@@ -199,11 +199,16 @@ form {
 
   /* display: none; Removido para arquitectura multi-idioma */
 }
+/* Colorear el idioma activo dinámicamente usando el atributo lang del HTML */
+html[lang="es"] .languages .spa,
+html[lang="es"] .menuHamburguesa ul .espn span {
+  color: blue;
+}
 
-
-
-/* .spa removido porque JS ahora asigna el color basándose en el idioma activo */
-
+html[lang="en"] .languages .eng,
+html[lang="en"] .menuHamburguesa ul .engl span {
+  color: blue;
+}
 
 
 
